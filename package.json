@@ -1,0 +1,27 @@
+{
+  "name": "chatservice",
+  "version": "1.0.0",
+  "description": "this application serves the chat service for my whatsapp clone",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akashvg007/chatservice.git"
+  },
+  "dependencies": {
+    "socket.io": "2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "author": "akashvg007",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akashvg007/chatservice/issues"
+  },
+  "homepage": "https://github.com/akashvg007/chatservice#readme"
+}
