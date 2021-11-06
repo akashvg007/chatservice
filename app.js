@@ -1,4 +1,6 @@
-const io = require('socket.io')(5000)
+const app = require("express")();
+const server = require('http').createServer(app);
+const io = require('socket.io')(server);
 
 io.on('connection', socket => {
     const id = socket.handshake.query.id
@@ -12,3 +14,5 @@ io.on('connection', socket => {
         })
     })
 })
+
+server.listen(3800);

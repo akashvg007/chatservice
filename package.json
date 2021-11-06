@@ -13,7 +13,8 @@
     "url": "git+https://github.com/akashvg007/chatservice.git"
   },
   "dependencies": {
-    "socket.io": "2.3.0"
+    "express": "^4.17.1",
+    "socket.io": "2.4.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
